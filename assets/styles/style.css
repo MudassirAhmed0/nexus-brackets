@@ -1,19 +1,29 @@
 @font-face {
-    font-family: "Montserrat";
-    src: url('../fonts/Montserrat-Light.ttf');
-    font-weight: 300;
+    font-family: "Magistrial";
+    src: url('../fonts/Magistral-Book.woff2');
+    font-weight: 400;
 }
 @font-face {
-    font-family: "Montserrat";
-    src: url('../fonts/Montserrat-Medium.ttf');
+    font-family: "Magistrial";
+    src: url('../fonts/Magistral-Medium.woff2');
     font-weight: 500;
 }
-@font-face {
-    font-family: "Montserrat";
-    src: url('../fonts/Montserrat-Bold.ttf');
-    font-weight: 700;
-}
+ 
 
 body{
-    font-family: "Montserrat";
+    font-family: "Magistrial";
+    font-weight: 400;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+.firstOverlay{
+    /* transform: matrix(0, 1, -1, 0, 0, 0); */
+/* UI Properties */
+background: transparent linear-gradient(0deg, #FFFFFF 0%, #FFFFFF00 100%) 0% 0% no-repeat padding-box;
+opacity: 0.6;
+}
+.secondOverlay{
+    background: transparent linear-gradient(180deg, #929292 0%, #FFFFFF00 100%) 0% 0% no-repeat padding-box;
+opacity: 0.6;
+    
 }
